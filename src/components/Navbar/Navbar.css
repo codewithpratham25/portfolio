@@ -1,0 +1,45 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+
+.CodeX-logo{
+  width: 200px;
+  height: auto;
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 90px;
+  font-size: 0.9rem;
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.connect-with-me{
+  padding: 15px 30px;
+  border-radius: 50px;
+  background: linear-gradient(to right,#08203e,#557c93);
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1.3rem;
+}
+
+.connect-with-me > a{
+  text-decoration: none;
+  color: #fefae0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.connect-with-me:hover{
+  transform: scale(1.15);
+}
+
+.list-links{
+  text-decoration: none;
+  color: #112A46;
+}
