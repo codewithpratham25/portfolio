@@ -1,11 +1,12 @@
 import './Navbar.css'
+import CodeX from "../../assets/CodeX.png"
 
 const Navbar = () =>{
   return(
     <nav>
     <div className="navbar">
       <div className="navbar-left">
-        <a href="#"><img src="./src/assets/CodeX.png" alt="" className="CodeX-logo" /></a>
+        <a href="#"><img src={CodeX} alt="" className="CodeX-logo" /></a>
       </div>
       <ul className='nav-list'>
         <a href="" className='list-links'><li>Home</li></a>

@@ -1,5 +1,5 @@
 import "./About.css"
-
+import MyAbt from "../../assets/MyAbt.jpg"
 
 const About = () =>{
   return (
@@ -9,7 +9,7 @@ const About = () =>{
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src="./src/assets/My-Abt.jpg" alt="" />
+          <img src={MyAbt} alt="" />
         </div>
         <div className="about-right">
           <div className="about-para">
