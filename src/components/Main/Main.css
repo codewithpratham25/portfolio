@@ -1,4 +1,4 @@
-.profile-pic{
+.profile-pic {
   width: 350px;
   height: auto;
   margin-left: 20px;
@@ -7,50 +7,46 @@
   margin-bottom: 60px;
 }
 
-.react-typed{
-  color: #112A46;
+.react-typed {
+  color: #112a46;
   font-weight: 500;
   font-size: 2rem;
 }
 
-.main-content{
+.main-content {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.welcome-text{
+.welcome-text {
   display: flex;
   align-items: center;
 }
-.main-content-head{
+.main-content-head {
   font-family: "Intel One Mono", monospace;
-  color: #112A46;
+  color: #112a46;
   font-size: 2.5rem;
 }
-.main-content-head > span{
+.main-content-head > span {
   background: linear-gradient(90deg, #8aadd3 0%, #61b7e6 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.main-content-head-h2{
+.main-content-head-h2 {
   font-family: "Intel One Mono", monospace;
-  color: #112A46;
+  color: #112a46;
   font-size: 2rem;
 }
-.react-typed-CodeX{
+.react-typed-CodeX {
   font-family: "Bitcount Grid Single", system-ui;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
 }
 
-.buttons{
+.buttons {
   display: flex;
   align-items: center;
   gap: 25px;
@@ -60,11 +56,11 @@
   margin-top: 40px;
 }
 
-.connect{
+.connect {
   margin-right: 20px;
   padding: 15px 30px;
   border-radius: 50px;
-  background: linear-gradient(to right,#08203e,#557c93);
+  background: linear-gradient(to right, #08203e, #557c93);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -79,20 +75,45 @@
   margin-right: 20px;
   padding: 15px 30px;
   border-radius: 50px;
-  border: 2px solid #112A46;
+  border: 2px solid #112a46;
   cursor: pointer;
   transition: 0.5s;
 }
 
-.resume > a{
+.resume > a {
   text-decoration: none;
-  color: #112A46;
+  color: #112a46;
   font-family: "Bebas Neue", sans-serif;
 }
 
-.connect:hover{
+.connect:hover {
   transform: scale(1.15);
-
-}.resume:hover{
+}
+.resume:hover {
   transform: scale(1.12);
+}
+
+@media screen and (max-width: 480px) {
+  .profile-pic {
+    margin-right: 0;
+    margin-left: 110px;
+  }
+
+  .welcome-text {
+    margin-left: 1px;
+  }
+  .main-content-head {
+    font-size: 1.8rem;
+    margin-left: 108px;
+    width: 100%;
+  }
+  .main-content-head-h2 {
+    font-size: 1.8rem;
+    margin-left: 108px;
+    width: 100%;
+  }
+
+  .buttons {
+    margin-left: 108px;
+  }
 }
