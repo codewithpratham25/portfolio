@@ -6,7 +6,6 @@
   gap: 60px;
   margin-bottom: 50px;
 }
-
 .about-title{
   position: relative;
   padding: 50px;
@@ -40,12 +39,16 @@
 
 }
 
-.about-skills{
+.about-skills-1{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
+.about-skills-2{
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+}
 .about-skill{
   display: flex;
   gap: 50px;
@@ -69,3 +72,42 @@
   background: linear-gradient(to right,#61f4de,#6e78ff);
 }
 
+@media screen and (max-width: 480px){
+  .about-me{
+    font-size: 4rem;
+    margin-left: 108px;
+  }
+
+  .about-sections{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .about-left{
+    margin-left: 50px;
+  }
+  .about-right{
+
+  }
+  .about-para{
+    gap: 0;
+    font-size: 1.5rem;
+
+    margin-left: 75px;
+    width: 100%;
+  }
+
+  .about-para > p{
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .about-skills-1{
+    display: none;
+  }
+
+  .about-skills-2{
+    display: flex;
+    margin: 1pc;
+  }
+}
