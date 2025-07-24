@@ -92,33 +92,3 @@
 .resume:hover {
   transform: scale(1.12);
 }
-
-@media screen and (max-width: 480px) {
-  .profile-pic {
-    width: 150px;
-    margin-right: 0;
-    margin-left: 110px;
-  }
-
-  .welcome-text {
-    margin-left: 1px;
-  }
-  .main-content-head {
-    font-size: 1.8rem;
-    margin-left: 108px;
-    width: 100%;
-  }
-  .main-content-head-h2 {
-    font-size: 1.8rem;
-    margin-left: 108px;
-    width: 100%;
-  }
-
-  .buttons {
-    margin-left: 108px;
-  }
-
-  .connect > a {
-    font-size: 1.19rem;
-  }
-}
