@@ -1,4 +1,5 @@
 import './Navbar.css'
+import './Navbar-MediaQuery.css'
 import CodeX from "../../assets/CodeX.png"
 import ActiveSidebar from "../../assets/ActiveSidebar.svg"
 import CloseSidebar from "../../assets/CloseSidebar.svg"

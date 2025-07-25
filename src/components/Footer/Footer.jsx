@@ -1,4 +1,5 @@
 import "./Footer.css"
+import "./Footer-MediaQuery.css"
 import { SocialIcon } from "react-social-icons";
 
 const Footer = () =>{

@@ -1,4 +1,5 @@
 import "./About.css"
+import './About-MediaQuery.css'
 import MyAbt from "../../assets/MyAbt.jpg"
 
 const About = () =>{

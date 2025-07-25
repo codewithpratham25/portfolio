@@ -1,0 +1,45 @@
+@media screen and (max-width: 480px){
+  .about{
+    gap: 15px;
+  }
+  .about-me{
+    font-size: 4rem;
+    margin-left: 75px;
+  }
+  .about-title{
+    padding: 0;
+  }
+
+  .about-sections{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .about-left{
+    margin-left: 50px;
+  }
+  .about-para{
+    gap: 0;
+    font-size: 1.5rem;
+
+    margin-left: 75px;
+    width: 100%;
+  }
+
+  .about-para > p{
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+
+  .about-skills-1{
+    display: none;
+  }
+
+  .about-skills-2{
+    display: flex;
+    margin: 2pc;
+    width: 100%;
+    margin-left: 55px;
+  }
+}

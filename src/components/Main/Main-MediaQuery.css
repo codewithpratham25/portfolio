@@ -1,0 +1,78 @@
+@media screen and (max-width: 480px) {
+  .profile-pic {
+    width: 150px;
+    margin-right: 0;
+    margin-left: 60px;
+    margin-bottom: 35px;
+  }
+
+  .welcome-text {
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+  }
+  .welcome{
+    margin-left: 45px;
+  }
+  .codex{
+    margin-left: 85px;
+  }
+  .main-content-head-res{
+    display: block;
+    font-size: 1.8rem;
+    margin-left: 70px;
+    width: 100%;
+
+    font-family: "Intel One Mono", monospace;
+    color: #112a46;
+
+    gap: 0;
+  }
+
+  .main-content-head-res > span {
+    display: flex;
+    background: linear-gradient(90deg, #8aadd3 0%, #61b7e6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    
+  }
+  .main-content-head {
+    display: none;
+  }
+  .main-content-head-h2 {
+    display: none;
+  }
+
+  .main-content-head-h2-res{
+    display: block;
+    font-family: "Intel One Mono", monospace;
+    color: #112a46;
+    font-size: 1.5rem;
+    margin-left: 85px;
+    width: 100%;
+  }
+
+  .react-typed{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .buttons {
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 190px;
+  }
+
+  .connect > a {
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .resume > a{
+    font-size: 1.1rem;
+  }
+}
